@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>FORMS</title>
+    </head>
+    <body>
+        <h2><b>FORM SUBMISSION</b></h2>
+        <forms action="img.html" method="post">
+        <label>FIRST NAME</label>
+        <input type="text" name="fname" required><br><br>
+        <label>LAST NAME</label>
+        <input type="text" name="lname" required><br><br>
+        <label>PASSWORD</label>
+        <input type="password" name="pwd" required><br><br>
+        <label>Sex</label>
+        <input type="radio" name="gender" value="M">MALE
+        <input type="radio" name="gender" value="F">FEMALE<br><br>
+        <input type="date" name="order date"><br><br>
+        <label>email id</label>
+        <input type="email" name="email"><br><br>
+        
+        <p>place the order for shirt size </p>
+        <select name="size">
+            <option>small</option>
+            <option>medium</option>
+            <option>large</option>
+            <option>extra large</option>
+        </select><br>
+        Give the comments here<br>
+        <textarea name="comments" rows="10" cols="20"></textarea>
+        <input type="button" value="check" onclick="validate()"><br>
+        <input type="submit" value="login" onclick="submit()">
+        <input type="reset" value="clear" onclick="clear">  
+        </forms>
+        <form action="https://www.google.com" method="get">
+        <lable for="gsearch">search engine</lable>
+        <input type="search" id="gsearch" name="gsearch"><br><br>
+        </form>
+    </body>
+</html>
